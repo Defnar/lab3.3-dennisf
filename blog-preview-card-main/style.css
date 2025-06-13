@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Figtree;
+  src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype'),
+       url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Figtree;
+  src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+#heading, #greg-id {
+    font-size: .875rem;
+}
+
+
+.card {
+    width: 384px;
+    height: auto;
+    box-shadow: 8px 8px 0px #000;
+    transition: box-shadow .3s ease-in-out;
+}
+
+body, #heading {
+    background-color: hsl(47, 88%, 63%);
+    font-family:Figtree;
+}
+
+#greg-id img{
+    width: 32px;
+    height: 32px;
+}
+
+.card:hover, .card:focus {
+    cursor: pointer;
+    box-shadow: 16px 16px 0px #000;
+    #foundations {
+        color: hsl(47, 88%, 63%)
+    }
+}
+
+.attribution {
+  font-size: 11px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 400px) {
+
+    html {
+        font-size: 14px;
+    }
+    .card {
+        width: 327px;
+        height: 501px;
+    }
+}
