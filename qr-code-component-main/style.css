@@ -1,0 +1,8 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+#qr-wrapper {
+  width: 288px;
+  height: 443px;
+}
