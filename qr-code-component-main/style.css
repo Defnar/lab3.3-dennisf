@@ -1,8 +1,23 @@
 body {
-    font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
+  background: hsl(212, 45%, 89%);
 }
 
 #qr-wrapper {
   width: 288px;
   height: 443px;
+  background: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#text2 {
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
 }
